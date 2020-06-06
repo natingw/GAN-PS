@@ -149,7 +149,7 @@ class DG_LoadData():
         t_g0  = self.get_loader_g(0,  n_batch,   t_id_0 )
         t_g1  = self.get_loader_g(1,  n_batch,   t_id_1 )
         v_g0  = self.get_loader_g(0,  1,         v_id_0 )
-        v_g1  = self.get_loader_g(0,  1,         v_id_1 )
+        v_g1  = self.get_loader_g(1,  1,         v_id_1 )
         return t_g0, t_g1, v_g0,  v_g1
 
     def get_loader(self, n_batch = 5):
